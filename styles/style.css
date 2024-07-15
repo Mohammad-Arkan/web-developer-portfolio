@@ -1,0 +1,39 @@
+/* Common font family */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.primary-color {
+  color: #fd6e0a;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-title {
+  font-weight: bolder;
+  font-size: 45px;
+  color: #1e1e1e;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  margin-right: 50px;
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+  color: #474747;
+}
+
+.btn-primary {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 35px;
+}
