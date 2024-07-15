@@ -9,6 +9,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 200px;
 }
 .nav-title {
   font-weight: bolder;
@@ -36,4 +37,16 @@ nav li a {
   border-radius: 5px;
   border: none;
   padding: 15px 35px;
+}
+/* header releted style */
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  padding: 50px 30px 30px 200px;
+  display: flex;
+  align-items: center;
+}
+.banner .profile-fic {
+  width: 500px;
 }
